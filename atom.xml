@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Gesko</title>
+ <link href="https://p0wex.github.io/Gesko/atom.xml" rel="self"/>
+ <link href="https://p0wex.github.io/Gesko/"/>
+ <updated>2021-12-18T00:04:43+01:00</updated>
+ <id>https://p0wex.github.io</id>
+ <author>
+   <name>gesko</name>
+   <email>your-email@email.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Fjalori i perdorur në shqip rreth artikujve në IT.</title>
+   <link href="https://p0wex.github.io/Gesko/2021/12/15/rregullat-e-shkrimit-ne-shqipe-rreth-programimit"/>
+   <updated>2021-12-15T00:00:00+01:00</updated>
+   <id>https://p0wex.github.io/2021/12/15/Rregullat-e-shkrimit-ne-shqipe-rreth-programimit</id>
+   <content type="html">&lt;p&gt;Përderisa mungesa e fjalëve në shqip rreth teknologjisë është shumë e madhe, zgjidhja që do të përdoret në shpjegimin e
+metodave dhe principeve të ndryshme në programim do të bëhet si në vijim. 
+  &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Të gjitha emrat dhe shkurtesat në
+gjuhën angleze do të barten direkt në gjuhën shqipe, edhe pse disa nga shkronjat nuk egzistojnë në alfabetin tonë.
+ &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Arsyet janë këto:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Së pari të kemi një burim ku ti referohemi komunitetit tonë, ti qasemi problemeve dhe të i zgjidhim së bashku.&lt;/li&gt;
+  &lt;li&gt;Nëse mësoni diçka të re në gjuhën shqipe, ta keni më të lehtë që të gjeni referenca në gjuhën angleze, përveç atyre
+fjalëve që vetëm egzistojnë dhe janë të njohura.&lt;/li&gt;
+  &lt;li&gt;Komunikim i rrjedhshëm me të gjithë programerët.&lt;/li&gt;
+  &lt;li&gt;Të krijohet një lidhje në gjuhën shqipe me atë angleze me termet që perdoren në IT.&lt;/li&gt;
+  &lt;li&gt;Të mund të kapim një bisedë rreth një Principle apo një Pattern pa u brengosur se mos dikush po na e gjykon gjuhën.&lt;/li&gt;
+  &lt;li&gt;Që të mos e izolojmë vetën duke u munduar që të i përkthejmë fjalët ndersa fjalë të reja dalin çdo ditë në Anglisht.
+  P.SH&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Anglisht&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Shqip (Shqiptimi)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Shqiptimi&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Class&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Class&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Klas&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Factory Method&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Factory Method&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Faktory Method&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Algorithm&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Algoritem&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Algoritem&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chain of command&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chain of command&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Qain of Komand&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;YANKI&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;YANKI&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Janki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;OOP&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;OOP&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;OOPE&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DDD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DDD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Di`Di`Di&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Domain Driven Design&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Dizajn i orientuar në Domain&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;~&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Architecture&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Arkitektura&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;~&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Software Architecture&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Software Architecture&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Akitekture Softuerike&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Framework&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Framework&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Frameuork&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;KISS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;KISS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mental Overload&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mental Overload&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mental Overload&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;SOLID&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;SOLID&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Solid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Software Development&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Software Development&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Softuer Development&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Interface&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Interface&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Interfejs&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Këto janë disa nga shembujt e fjalëve se si do të perdoren në artikuj. 
+  &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pse duhet të perdorim këto fjalë?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thjeshtë, nëse i perdorim emertimin e njejtë si në Anglisht atëher gjetja e definicioneve në anglisht do të bëhet më e
+lehtë në të ardhmen.&lt;/li&gt;
+  &lt;li&gt;Ashtu edhe kur flasim në shqip rreth teknologjisë i perdorim emrat dhe shkurtesat ne gjuhë angleze, prandaj të paktën
+të jemi konsistent që të gjithë ti perdorim fjalët e njeta edhe pse nuk janë fjalë të që egzistojnë në fjalor.&lt;/li&gt;
+  &lt;li&gt;Nuk na izolon por do të na e mundëson që të kapemi për termet angleze, gje që e forcon lidhjen me anglishten.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;br /&gt;
+Un besoj që kjo do të ndihmojë ose kontribojë në nismën për iniciativën për të pasur një fjalor të përditsuar.&lt;/p&gt;
+
+&lt;p&gt;Komentoni mendimin tuaj.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Design Patterns - Chain of Responsibility (Shqip)</title>
+   <link href="https://p0wex.github.io/Gesko/2021/12/15/dp-chain-of-responsibility"/>
+   <updated>2021-12-15T00:00:00+01:00</updated>
+   <id>https://p0wex.github.io/2021/12/15/DP-Chain of Responsibility</id>
+   <content type="html">&lt;h3 id=&quot;chain-of-responsibility&quot;&gt;Chain of Responsibility&lt;/h3&gt;
+
+&lt;p&gt;Gjithashtu njihet si: CoR, Chain of Command&lt;/p&gt;
+
+&lt;p&gt;PErshkrimi 
+Shembulli&lt;/p&gt;
+
+&lt;p&gt;Principet qe supporton&lt;/p&gt;
+
+&lt;p&gt;Nje tip rreth programmming&lt;/p&gt;
+
+&lt;h3 id=&quot;shembull-konkret-nga-jeta-reale&quot;&gt;Shembull konkret nga jeta reale&lt;/h3&gt;
+
+&lt;h3 id=&quot;një-veçori-e-re&quot;&gt;Një veçori e re&lt;/h3&gt;
+
+&lt;h3 id=&quot;një-shembull-se-si-nuk-duhet-të-zbatohet&quot;&gt;Një shembull se si nuk duhet të zbatohet.&lt;/h3&gt;
+
+&lt;h3 id=&quot;uml-modeli-i-strategjise&quot;&gt;UML Modeli i strategjise&lt;/h3&gt;
+
+&lt;h3 id=&quot;implementimi-korrent-i-dizajnit&quot;&gt;Implementimi korrent i dizajnit&lt;/h3&gt;
+
+&lt;h3 id=&quot;mbyllja&quot;&gt;Mbyllja&lt;/h3&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Paternet e dizajnimit - Paterni Strategji</title>
+   <link href="https://p0wex.github.io/Gesko/2021/12/13/modelet-e-dizajnimit-strategjia"/>
+   <updated>2021-12-13T18:35:00+01:00</updated>
+   <id>https://p0wex.github.io/2021/12/13/Modelet-e-dizajnimit-strategjia</id>
+   <content type="html">&lt;p&gt;Paterni strategji mundësonë që ti izolojmë algoritmet në klasa të ndryshme, dhe mundëson zëvendesimin e algoritmeve pa pasur nevojë qe kodi të ndryshohet. Pra paterni strategji na mundësonë që të shtojmë klasa të tjera që implementojnë algoritme të ndryshme por janë të tipit të njëjtë.&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;Gjithashtu kjo e mbështetë  principin e parë &lt;a href=&quot;https://programerat.github.io/2021/SOLID-principet-dhe-si-ti-aplikoni-ne-kod/#Principi%20i%20dytë%20-%20E%20hapur%20për%20zgjatje,%20e%20mbyllur%20për%20ndryshime.&quot;&gt; Hapur për zgjerim e mbyllur për ndryshime.&lt;/a&gt; E mbështetë  edhe principin e pestë në SOLID ku gjithçka varet në kontratë dhe jo në zbatim. 
+Prandaj ky patern na mundësonë që të kemi shumë zbatime të bazuara  në një kontratë.&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mos harroni &lt;a href=&quot;https://en.wikipedia.org/wiki/KISS_principle&quot;&gt;KISS&lt;/a&gt; para çdo gjëje tjetër.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;shembull-konkret-nga-jeta-reale&quot;&gt;Shembull konkret nga jeta reale&lt;/h3&gt;
+&lt;p&gt;Nëse për shembull duam të udhëtojmë nga qyteti  A në qytetin B, ne duhet ta dimë se si të arrijmë më shpejtë në destinacion. Supozojmë që ne e  kemi ndërtuar një aplikacion i cili e llogaritë rrugën më të shpejtë me makinë.&lt;/p&gt;
+
+&lt;p&gt;Implementimi në kod do të duket si më poshtë:
+&lt;script src=&quot;https://gist.github.com/Diarselimi/bfd539de510e269233dee8cdf5987403.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;një-veçori-e-re&quot;&gt;Një veçori e re&lt;/h3&gt;
+&lt;p&gt;Tani na kërkohet të shtojmë një mënyrë të re transporti. Si do të shtonim një mënyrë të re transporti pa shkelur rregullat SOLID?&lt;/p&gt;
+
+&lt;h3 id=&quot;një-shembull-se-si-nuk-duhet-të-zbatohet&quot;&gt;Një shembull se si nuk duhet të zbatohet.&lt;/h3&gt;
+&lt;p&gt;Në shembullin e mëposhtëm shohim se si rregulli i parë i principeve SOLID është thyer, &lt;a href=&quot;https://programerat.github.io/2021/SOLID-principet-dhe-si-ti-aplikoni-ne-kod/#Principi%20i%20par%C3%AB%20-%20Nj%C3%AB%20klas%C3%AB,%20nj%C3%AB%20p%C3%ABrgjegj%C3%ABsi&quot;&gt;Principi i një përgjegjësie&lt;/a&gt;. &lt;a href=&quot;https://programerat.github.io/2021/SOLID-principet-dhe-si-ti-aplikoni-ne-kod/#Principi%20i%20dyt%C3%AB%20-%20E%20hapur%20p%C3%ABr%20zgjatje,%20e%20mbyllur%20p%C3%ABr%20ndryshime.&quot;&gt;Gjithashtu thyen principin e dytë e mbyllur për ndryshime&lt;/a&gt;, nëse metoda e njërit prej transporteve ndryshon atëhere edhe  kjo klasë duhet të ndryshojë.
+&lt;script src=&quot;https://gist.github.com/Diarselimi/ab34e500d821307baf0bf48827f92039.js&quot;&gt;&lt;/script&gt;
+Kjo klasë,  në jetën reale do të ishte klasa më e madhe në projekt  nëse do të punonim në një aplikacion si në shembullin më lartë.&lt;/p&gt;
+
+&lt;h3 id=&quot;uml-modeli-i-strategjise&quot;&gt;UML Modeli i strategjise&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/Gesko/assets/diagrams/transporti.png&quot; alt=&quot;uml diagrami&quot; /&gt;
+Në diagram e shohim se e kemi një kontratë &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Transport&lt;/code&gt;, pastaj, çdo klasë me zbatime të ndryshme në bazë të kontratës. Klientit nuk i intereson sesi zbatohet algoritmi sepse ai varet në kontratë dhe kjo e mbështetë principin e pestë &lt;a href=&quot;https://programerat.github.io/2021/SOLID-principet-dhe-si-ti-aplikoni-ne-kod/#Principi%20i%20pest%C3%AB%20-%20Inversioni%20i%20var%C3%ABsis%C3%AB&quot;&gt; Inversionin i varësisë&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;implementimi-korrent-i-dizajnit&quot;&gt;Implementimi korrent i dizajnit&lt;/h3&gt;
+&lt;script src=&quot;https://gist.github.com/Diarselimi/d5eafb20f04cea71f0fe7b28b81d8b67.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Pjesa me &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switch&lt;/code&gt; mund të bartet në një factory ku në bazë të inputit e krijon klasën specifike. 
+P.SH
+&lt;script src=&quot;https://gist.github.com/Diarselimi/a3191d3e3b6ff9bf3ba3e31331bf15e5.js&quot;&gt;&lt;/script&gt;
+Këtë pjesë mund ta shpjegoj kur të shkruaj për paternin Factory më në detaje.&lt;/p&gt;
+
+&lt;h3 id=&quot;mbyllja&quot;&gt;Mbyllja&lt;/h3&gt;
+&lt;p&gt;Gjithmonë kur shkruajmë kod duhet të përpiqemi të lidhim problemin me jetën e përditshme, nëse nuk është e mundur me biznesin.
+Zbatimi i principeve dhe modeleve bëhet më i lehtë kur e kuptoni problemin. Për të parë nëse e kuptoni problemin atëherë  provoni t’ia shpjegoni dikujt ose përdorni metodën &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;Rubber Duck.&lt;/a&gt;
+ &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Siç thotë shprehja, nëse mund t’ia shpjegoni dikujt me fjalë të thjeshta, atëherë e kuptoni problemin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; 
+ &lt;/p&gt;
+
+&lt;p&gt;Rubber duck është një metodë shumë e popullarizuar që programuesit e përdorin sepse shpesh nuk kemi pyetje pasi që mendojmë se gjithçka është e qartë, ndërsa nëse përpiqemi ta shpjegojmë atë atëherë e shohim që nuk e kemi kuptuar në të vërtetë.&lt;br /&gt;
+Në vazhdim do të postoj për modele të tjera por edhe për metoda të ndryshme që përdorin programuesit.&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;Kodim të këndshëm. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;3 &amp;lt;/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Principet S.O.L.I.D dhe si të aplikojmë ato në kod</title>
+   <link href="https://p0wex.github.io/Gesko/2021/11/17/solid-principet-dhe-si-ti-aplikoni-ne-kod"/>
+   <updated>2021-11-17T09:15:20+01:00</updated>
+   <id>https://p0wex.github.io/2021/11/17/SOLID-principet-dhe-si-ti-aplikoni-ne-kod</id>
+   <content type="html">&lt;p&gt;E pyeta një të afërm timin pse duhet ti mësojmë SOLID principet?
+Ja si përgjigjet ai…&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Dallimi në mes amaterëve dhe profesinistëve që kërkohen nga cdo kompani, perfshir: Tesla, Google, Apple, SpaceX etj gjendet tek aplikimi i principeve të ndryshme.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pasi të lexoni këtë artikull, si dhe të analizoni shembujt që janë në këtë artikull, ju do të kuptoni principet SOLID dhe do të jeni të gatshëm ti aplikoni ato.&lt;/p&gt;
+
+&lt;p&gt;Çdo kompani në Gjermani që do të aplikoni si zhvillues softveri, do të ju parashtrojn pytje në intervistë në lidhje me principet SOLID.&lt;/p&gt;
+
+&lt;p&gt;Principet SOLID në OO programim do të ndihmojnë shumë në karrierën tuaj si programer.
+Do të kesh një bazë stabile për të ecur përpara, pa pasur parasysh produktin që ti e ndërton.&lt;/p&gt;
+
+&lt;h3 id=&quot;prezantimi-i-problemit&quot;&gt;Prezantimi i problemit&lt;/h3&gt;
+&lt;p&gt;Para se të fillojm, do ta prezantoj problemin që do të punoj gjatë të gjithë shembujve që i marr.&lt;/p&gt;
+
+&lt;h3 id=&quot;problemi&quot;&gt;Problemi&lt;/h3&gt;
+&lt;p&gt;Të marrim shembull një klient i juaj do të ju kërkoj me zhvillu një aplikacion. Ky aplikacion do ti digjitalizoj porosit në restaurantin e tij &lt;em&gt;Villa Natyra&lt;/em&gt; që vetëm bën piza dhe hamburgera.
+Ne si programera të mirë që jem ja ndërtojm aplikacionin, tash ai po e përdor dhe është i kënaqur.&lt;/p&gt;
+
+&lt;p&gt;Në rregull, masi e kem ndërtu produktin tash hajde të flasim për principet.&lt;/p&gt;
+
+&lt;h3 id=&quot;principi-i-parë---një-klasë-një-përgjegjësi&quot;&gt;Principi i parë - Një klasë, një përgjegjësi&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Një klasë duhet të këtë vetëm një përgjegjësi dhe një arsyje të ndryshoj.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Një shembull ku ky princip nuk respektohet&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;class Hamburgeri
+{
+   private string $kategoria;
+   private array $shtesat;
+   private string $llojiIMishit;
+ 
+   public function __constructor(string $llojiIMishit, array $shtesat)
+   {
+       $this-&amp;gt;kategoria = $this-&amp;gt;percaktoKategorine($llojiIMishit);
+       $this-&amp;gt;shtesat = $shtesat;
+       $this-&amp;gt;llojiIMishit = $llojiIMishit;
+   }
+ 
+   private function përcaktoKategorine(string $llojiIMishit): string
+   {
+       if (in_array($llojiIMishit, ['file_pule', 'mish_lope'])) {
+           return 'zgare';
+       }
+ 
+       return 'furre';
+   }
+ 
+   public function llogaritShumen(): double
+   {
+       double $shuma = 0;
+       foreach($this-&amp;gt;shtesat as $shtesa) {
+           $shuma += $shtesa-&amp;gt;merrQmimin();
+       }
+ 
+       return $this-&amp;gt;llojiIMishit + $shuma;
+   }
+ 
+   public function ruajFakturen(): void
+   {
+       //ktu ruhet faktura në databazë
+   }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nëse e kemi një klasë vetëm për hamburgerin edhe kjo klasë pranon shtesa sikur sallatë, domate etj.
+Gjithashtu e përcaktojmë kategorinë mbrenda klasës, i ruajm të dhënat në databazë dhe e kalkulojmë shumën.
+Atëher kjo klasë do të ndryshoj sa herë që mënyra e ruajtjës në databazë ose mënyra e kalkulimit ose mënyra e përcaktimit të kategorise ndryshojnë.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+ 
+class Hamburgeri implements Ushqim
+{
+   private const KATEGORIA = 'furre';
+   public array $shtesat;
+   public string $llojiIMishit;
+   public double $shuma;
+ 
+   public function __constructor(string $llojiIMishit, array $shtesat)
+   {
+       $this-&amp;gt;kategoria = $this-&amp;gt;percaktoKategorine($llojiIMishit);
+       $this-&amp;gt;shtesat = $shtesat;
+       $this-&amp;gt;llojiIMishit = $llojiIMishit;
+   }
+ 
+   public function merrKategorine(): string
+   {
+       return self::KATEGORIA;
+   }
+}
+ 
+class KalkulatoriUshqimit
+{
+   public function __constructor(Ushqim $ushqimi){}
+ 
+   public function merrShumen(): double
+   {
+       return 0.0; //ktu  kalkulohet shuma.
+   }
+}
+ 
+class RuajtjaFaktures
+{
+   public function ruaj(Faktura $faktura): void
+   {
+       $this-&amp;gt;save($faktura);
+   }
+}
+ 
+class Faktura
+{
+   public function __constructor(Ushqim $ushqimi, double $shuma)
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Kurse këtu siç edhe shihet që i kemi ndarë klasat me përgjegjësi të ndryshme, sa herë që kalkulimi i çmimit ndryshon atëher klasa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KalkulatoriUshqimit&lt;/code&gt; po ashtu ndryshon. 
+Nëse vendosim ta ndrrojmë mënyrën se si i ruajmë të dhënat atëher klasa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RuajtjaFaktures&lt;/code&gt; ndryshon.&lt;/p&gt;
+
+&lt;h3 id=&quot;principi-i-dytë---e-hapur-për-zgjatje-e-mbyllur-për-ndryshime&quot;&gt;Principi i dytë - E hapur për zgjatje, e mbyllur për ndryshime.&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Një klasë duhet të jete e mbyllur për ndryshime ndërsa e hapur për zgjatje.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ta marrim shembull klasën që i bën kalkulimet &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KalkulatoriUshqimit&lt;/code&gt; dhe ta shohim si do të ndryshoj nëse një kërkes e re na vjen, shembull “Po me duhet që për studente çmimi final të dal 20% më lirë”&lt;/p&gt;
+
+&lt;p&gt;Tash na si programera pa dijeni për këtë princip “E mbyllur për ndryshime” do ta bëjme një ndryshim si në vijim&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+ 
+class KalkulatoriUshqimit
+{
+   public function merrShumen(Ushqim $ushqim): double
+   {
+       $shuma = $ushqimi-&amp;gt;merrLlojinEMishit()-&amp;gt;merrShumen();
+       foreach($ushqimi-&amp;gt;merrShtesat() as $shtesa) {
+           $shuma += $shtesa-&amp;gt;merrShumen();
+       }
+ 
+       return $shuma;
+   }
+ 
+   public function merrShumenPerStudente(Ushqim $ushqim): double
+   {
+       $shuma = $this-&amp;gt;merrShumen($ushqim);
+ 
+       return $shuma - ($shuma * 0.2);
+   }
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nëse bëjme diçka si kjo atëher së pari klasa ka jo një arsye por dy për të ndryshuar, që e then edhe principin e parë, shohim që po e kalkulon shumën e ushqimit dhe zbritjen për studenta. 
+Tash nëse ndryshon mënyra e kalkulimit të ushqimit ose përqindja për studenta, atëher kjo klasë duhet të modifikohet.&lt;/p&gt;
+
+&lt;p&gt;Nëse e konsiderojm Principin e parë, zbritja duhet të jete në një klas ndamas dhe në bazë të principit të dytë, klasa e re mund ta përdor klasën që kalkulon por nuk duhet ta ndryshoj atë.&lt;/p&gt;
+
+&lt;p&gt;Si rezultat kemi bërë një ndryshim si në vijim.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+ 
+class KalkulatoriUshqimit
+{
+   public function merrShumen(Ushqim $ushqim): double
+   {
+       $shuma = $ushqimi-&amp;gt;merrLlojinEMishit()-&amp;gt;merrShumen();
+       foreach($ushqimi-&amp;gt;merrShtesat() as $shtesa) {
+           $shuma += $shtesa-&amp;gt;merrShumen();
+       }
+ 
+       return $shuma;
+   }
+ 
+}
+ 
+class KalkulatoriUshqimitPerStudente extends KalkulatoriUshqimit
+{
+   private const ZBRITJE_NE_PERQINDJE = 0.2;
+ 
+   public function merrShumen(Ushqim $ushqimi): double
+   {
+       return $this-&amp;gt;zbritShumen(parent::merrShumen($ushqimi));
+   }
+ 
+   private function zbritShumen(double $shuma): double
+   {
+       return $shuma - ($shuma * self::ZBRITJE_NE_PERQINDJE);
+   }
+ 
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Siç edhe pe shihni i kemi ndarë përgjegjsit në klasa të ndryshme, tash nëse mënyra e kalkulimit të ushqimit ndryshon atëher do të ndryshoj vetem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KalkulatoriUshqimit&lt;/code&gt; dhe nëse zbritja për student ndryshon atëher do të ndryshoj vetëm klasa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KalkulatoriUshqimitPerStudente&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;principi-i-tretë---zëvendesimi-liskov&quot;&gt;Principi i tretë - Zëvendesimi Liskov&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Ky princip thot që nëse funksioni f(x) punon me objektet e tipit T. Atëher funksioni f(y) duhet të punoj me objektet y të tipit S ku S është nën tip i T.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ndoshta shembulli që e then këtë princip do ta lehtsoj kuptimin e ketij principi.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+ 
+class KalkulatoriUshqimit
+{
+   public function merrShumen(Ushqim $ushqim): double
+   {
+       $shuma = $ushqimi-&amp;gt;merrLlojinEMishit()-&amp;gt;merrShumen();
+       foreach($ushqimi-&amp;gt;merrShtesat() as $shtesa) {
+           $shuma += $shtesa-&amp;gt;merrShumen();
+       }
+ 
+       return $shuma;
+   }
+ 
+}
+ 
+class KalkulatoriUshqimitPerStudente extends KalkulatoriUshqimit
+{
+   private const ZBRITJE_NE_PERQINDJE = 0.2;
+ 
+   public function merrShumen(Ushqim $ushqimi): double
+   {
+       return $this-&amp;gt;zbritShumen(parent::merrShumen($ushqimi));
+   }
+ 
+   private function zbritShumen(double $shuma): double
+   {
+       return $shuma - ($shuma * self::ZBRITJE_NE_PERQINDJE);
+   }
+ 
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Kjo pjese e kodit është pjesë e principit të dytë ku e kem zgjatur klasën &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KalkulatoriUshqimit&lt;/code&gt;, me këtë ndryshim të metodës &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merrShumen&lt;/code&gt; e kemi thyer rregullin e principit të tretë.
+Nëse i referohemi definicionit i bjen që e njëjta metodë nuk duhet të kthen vlera të ndryshme edhe pse është klasë tjeter.&lt;/p&gt;
+
+&lt;p&gt;Do ta rregullojme këtë klasë si në vijim.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+ 
+class KalkulatoriUshqimit
+{
+   public function merrShumen(Ushqim $ushqim): double
+   {
+       $shuma = $ushqimi-&amp;gt;merrLlojinEMishit()-&amp;gt;merrShumen();
+       foreach($ushqimi-&amp;gt;merrShtesat() as $shtesa) {
+           $shuma += $shtesa-&amp;gt;merrShumen();
+       }
+ 
+       return $shuma;
+   }
+ 
+}
+ 
+class KalkulatoriUshqimitPerStudente extends KalkulatoriUshqimit
+{
+   private const ZBRITJE_NE_PERQINDJE = 0.2;
+ 
+   public function merrShumenEZbritur(): double
+   {
+       $this-&amp;gt;zbritShumen($this-&amp;gt;merrShumen());
+   }
+ 
+   private function zbritShumen(double $shuma): double
+   {
+       return $shuma - ($shuma * self::ZBRITJE_NE_PERQINDJE);
+   }
+ 
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Në vend që ta modifikojm metodën e klasës origjinale, do ta përdorim atë në klasën për studente dhe do të shtojmë metoda në klasën për studente.&lt;/p&gt;
+
+&lt;h3 id=&quot;principi-i-katert---ndarja-e-kontratave&quot;&gt;Principi i katert - Ndarja e kontratave&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Një klasë nuk duhet ta implementoj një metodë që nuk i nëvojitet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Shembull shtesat e ushqimeve, siq e kemi parë me lartë secila shtesë e ka çmimin e vet, po çka nëse kemi shtesa që nuk kushtojn?
+Shembull:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+interface Shtesa {
+   public function merrShumen(): double;
+}
+ 
+class Sallate implements Shtesa {
+   public const QMIMI = 0.50;
+ 
+   public function merrShumen() {
+       return self::QMIMI;
+   }
+}
+ 
+class BbqSos implements Shtesa {
+   public const QMIMI = 0.20;
+ 
+   public function merrShumen() {
+       return self::QMIMI;
+   }
+}
+ 
+class Ketchup implements Shtesa {
+   public const QMIMI = 0.00;
+ 
+   public function merrShumen() {
+       return self::QMIMI;
+   }
+}
+ 
+class Hamburger implements Ushqim {
+   private const QMIMI = 2.00;
+ 
+   public function merrQmimin():double
+   {
+       return self::QMIMI;
+   }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Siç e shohim në shembullin më lart, shtesa  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ketchup&lt;/code&gt; edhe pse është falas  duhet ta implementoj metodën &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merrShumen&lt;/code&gt; dhe kjo nuk e respekton principin e katërt, një klasë nuk duhet ta implementoj një metodë që nuk i nevojitet.&lt;/p&gt;
+
+&lt;p&gt;Kështu duhet  ta ndryshojm kodin që ta respektojme principin e katërt.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Ushqim {}
+interface Shtesa {
+   public function merrSasine(): int;
+}
+interface ShtesaMePages implements Shtesa {
+   public function merrShumen(): double;
+}
+ 
+class Sallate implements ShtesaMePages {
+   public const QMIMI = 0.50;
+ 
+   public function merrShumen() {
+       return self::QMIMI;
+   }
+}
+ 
+class Ketchup implements Shtesa {
+   private int $sasia = 1;
+ 
+   public function merrSasine(): int
+   {
+       return $this-&amp;gt;sasia;
+   }
+}
+ 
+class Hamburger implements Ushqim {
+   private const QMIMI = 2.00;
+ 
+   public function merrQmimin():double
+   {
+       return self::QMIMI;
+   }
+}
+ 
+class KalkulatoriUshqimit
+{
+   public function merrShumen(Ushqim $ushqim): double
+   {
+       $shuma = $ushqimi-&amp;gt;merrLlojinEMishit()-&amp;gt;merrShumen();
+       foreach($ushqimi-&amp;gt;merrShtesat() as $shtesa) {
+           if ($shtesa instanceof ShtesaMePages) {
+               $shuma += $shtesa-&amp;gt;merrShumen();  
+           }
+       }
+ 
+       return $shuma;
+   }
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ky është një shembull ku ndahet kontrata për shtesat me  çmime dhe ato pa  çmime, për arsye që shtesat pa çmime nuk kan nevoj ta implementojnë metodën &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merrQmimin()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;principi-i-pestë---inversioni-i-varësisë&quot;&gt;Principi i pestë - Inversioni i varësisë&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Një klasë që kryen një punë asnjëherë nuk duhet të varet në mjetin që e përdor por në kontratë.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Një shembull do të ishte ta ruajm fakturen në MySQL databazë si në shembullin në vijim.
+E mbani mend si klasa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RuajtjaFaktures&lt;/code&gt; varet direkt në klasën &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Databaza&lt;/code&gt; që është edhe implementimi mbrenda.
+Tani klasa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RuajtjaFaktures&lt;/code&gt; e then principin e parë sepse nëse e ndryshojme databazën  atëher duhet ta ndryshojm edhe klasën &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RuajtjaFaktures&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;class Databaza
+{
+   public function ruaj(Faktura $faktura): void
+   {
+       $sql = &quot;INSERT into FAKTURAT (val1, val2, val3) VALUES (1,2,3);&quot;
+       $this-&amp;gt;db-&amp;gt;executeSql($sql);
+   }
+}
+ 
+class RuajtjaFaktures
+{
+   public function __constructor(Databaza $databaza){}
+ 
+   public function ruaj(Faktura $faktura): void
+   {
+       $this-&amp;gt;databaza-&amp;gt;ruaj($faktura);
+   }
+}
+ 
+class Faktura
+{
+   public function __constructor(Ushqim $ushqimi, double $shuma)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Një shembull  që do ta respektonte principin e pestë do të ishte si në vijim.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;interface Databaza {
+   public function ruaj(Faktura $faktura): void;
+}
+ 
+class HapsiraRuajtjesSeFakturave implements Databaza
+{
+   public function ruaj(Faktura $faktura): void
+   {
+       $sql = &quot;INSERT into FAKTURAT (val1, val2, val3) VALUES (1,2,3);&quot;
+       $this-&amp;gt;db-&amp;gt;executeSql($sql);
+   }
+}
+ 
+class RuajtjaFaktures
+{
+   public function __constructor(Databaza $databaza){}
+ 
+   public function ruaj(Faktura $faktura): void
+   {
+       $this-&amp;gt;databaza-&amp;gt;ruaj($faktura);
+   }
+}
+ 
+ 
+ 
+class Faktura
+{
+   public function __constructor(Ushqim $ushqimi, double $shuma)
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ne këtë shembull e shohim që tani kemi një kontratë &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Databaza&lt;/code&gt; dhe një klasë ku gjendet implementimi i ruajtjes së fakturave &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HapsiraRuajtjesSeFakturave&lt;/code&gt;, tash nëse vendosim ta ndryshojm databazën në MongoDB, NoSQL ose çkado qoft nuk kemi nevoj ta ndryshojm klasën &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RuajtjaFaktures&lt;/code&gt; sepse ajo varet në kontrat e jo në implementim.&lt;/p&gt;
+
+&lt;h3 id=&quot;finalizimi-dhe-hapat-e-tjerë&quot;&gt;Finalizimi dhe hapat e tjerë&lt;/h3&gt;
+&lt;p&gt;Këto janë pra pesë principet në OO të cilat shikohen në secilën intervistë se sa mirë i ke kuptuar dhe a din si ti përdorni ato.
+Hapat e radhës janë: 
+Që të provosh ti aplikosh këto principe duhet startuar një projekt të vogël ose edhe në punën ku punon.
+Kur e shikon një kod në fillim të merr kohe ti shikosh të gjitha principet, por pas ca kohe bëhet më e leht.
+Përserite këtë proces disa here.&lt;/p&gt;
+
+&lt;p&gt;Nëse keni ndonjë koment, kritike ose   vetëm don të kemi një bised rreth OO atëher me kontakto në rrjetet sociale.
+&lt;a href=&quot;https://github.com/diarselimi&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>

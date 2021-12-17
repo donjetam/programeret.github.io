@@ -1,0 +1,39 @@
+[
+  
+    {
+      "title"    : "Fjalori i perdorur në shqip rreth artikujve në IT.",
+      "description" : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/Gesko/2021/12/15/rregullat-e-shkrimit-ne-shqipe-rreth-programimit",
+      "date"     : "2021-12-15 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Design Patterns - Chain of Responsibility (Shqip)",
+      "description" : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/Gesko/2021/12/15/dp-chain-of-responsibility",
+      "date"     : "2021-12-15 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Paternet e dizajnimit - Paterni Strategji",
+      "description" : "Paterni strategji bën pjesë në kategorinë e kontrollit të sjelljes së objekteve duke mundësuar më shumë fleksibilitet në komunikimin në mes objekteve.",
+      "category" : "",
+      "tags"     : "OO,, Design, Patterns,, PHP",
+      "url"      : "/Gesko/2021/12/13/modelet-e-dizajnimit-strategjia",
+      "date"     : "2021-12-13 18:35:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Principet S.O.L.I.D dhe si të aplikojmë ato në kod",
+      "description" : "Krijoni një bazë të fortë në programim duke mësuar SOLID principet.",
+      "category" : "",
+      "tags"     : "SOLID,, OO,, PHP,, PROGRAMERAT",
+      "url"      : "/Gesko/2021/11/17/solid-principet-dhe-si-ti-aplikoni-ne-kod",
+      "date"     : "2021-11-17 09:15:20 +0100"
+    } 
+  
+]
