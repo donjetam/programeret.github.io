@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Gesko</title>
- <link href="https://p0wex.github.io/Gesko/atom.xml" rel="self"/>
- <link href="https://p0wex.github.io/Gesko/"/>
- <updated>2021-12-18T00:04:43+01:00</updated>
- <id>https://p0wex.github.io</id>
+ <title>Programerat</title>
+ <link href="https://programeret.github.io//atom.xml" rel="self"/>
+ <link href="https://programeret.github.io//"/>
+ <updated>2021-12-18T00:15:06+01:00</updated>
+ <id>https://programeret.github.io</id>
  <author>
-   <name>gesko</name>
+   <name>programerat</name>
    <email>your-email@email.com</email>
  </author>
 
  
  <entry>
    <title>Fjalori i perdorur në shqip rreth artikujve në IT.</title>
-   <link href="https://p0wex.github.io/Gesko/2021/12/15/rregullat-e-shkrimit-ne-shqipe-rreth-programimit"/>
+   <link href="https://programeret.github.io//2021/12/15/rregullat-e-shkrimit-ne-shqipe-rreth-programimit"/>
    <updated>2021-12-15T00:00:00+01:00</updated>
-   <id>https://p0wex.github.io/2021/12/15/Rregullat-e-shkrimit-ne-shqipe-rreth-programimit</id>
+   <id>https://programeret.github.io/2021/12/15/Rregullat-e-shkrimit-ne-shqipe-rreth-programimit</id>
    <content type="html">&lt;p&gt;Përderisa mungesa e fjalëve në shqip rreth teknologjisë është shumë e madhe, zgjidhja që do të përdoret në shpjegimin e
 metodave dhe principeve të ndryshme në programim do të bëhet si në vijim. 
   &lt;br /&gt;&lt;/p&gt;
@@ -151,9 +151,9 @@ Un besoj që kjo do të ndihmojë ose kontribojë në nismën për iniciativën 
  
  <entry>
    <title>Design Patterns - Chain of Responsibility (Shqip)</title>
-   <link href="https://p0wex.github.io/Gesko/2021/12/15/dp-chain-of-responsibility"/>
+   <link href="https://programeret.github.io//2021/12/15/dp-chain-of-responsibility"/>
    <updated>2021-12-15T00:00:00+01:00</updated>
-   <id>https://p0wex.github.io/2021/12/15/DP-Chain of Responsibility</id>
+   <id>https://programeret.github.io/2021/12/15/DP-Chain of Responsibility</id>
    <content type="html">&lt;h3 id=&quot;chain-of-responsibility&quot;&gt;Chain of Responsibility&lt;/h3&gt;
 
 &lt;p&gt;Gjithashtu njihet si: CoR, Chain of Command&lt;/p&gt;
@@ -181,9 +181,9 @@ Shembulli&lt;/p&gt;
  
  <entry>
    <title>Paternet e dizajnimit - Paterni Strategji</title>
-   <link href="https://p0wex.github.io/Gesko/2021/12/13/modelet-e-dizajnimit-strategjia"/>
+   <link href="https://programeret.github.io//2021/12/13/modelet-e-dizajnimit-strategjia"/>
    <updated>2021-12-13T18:35:00+01:00</updated>
-   <id>https://p0wex.github.io/2021/12/13/Modelet-e-dizajnimit-strategjia</id>
+   <id>https://programeret.github.io/2021/12/13/Modelet-e-dizajnimit-strategjia</id>
    <content type="html">&lt;p&gt;Paterni strategji mundësonë që ti izolojmë algoritmet në klasa të ndryshme, dhe mundëson zëvendesimin e algoritmeve pa pasur nevojë qe kodi të ndryshohet. Pra paterni strategji na mundësonë që të shtojmë klasa të tjera që implementojnë algoritme të ndryshme por janë të tipit të njëjtë.&lt;br /&gt;
  &lt;/p&gt;
 
@@ -210,7 +210,7 @@ Prandaj ky patern na mundësonë që të kemi shumë zbatime të bazuara  në nj
 Kjo klasë,  në jetën reale do të ishte klasa më e madhe në projekt  nëse do të punonim në një aplikacion si në shembullin më lartë.&lt;/p&gt;
 
 &lt;h3 id=&quot;uml-modeli-i-strategjise&quot;&gt;UML Modeli i strategjise&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/Gesko/assets/diagrams/transporti.png&quot; alt=&quot;uml diagrami&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/diagrams/transporti.png&quot; alt=&quot;uml diagrami&quot; /&gt;
 Në diagram e shohim se e kemi një kontratë &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Transport&lt;/code&gt;, pastaj, çdo klasë me zbatime të ndryshme në bazë të kontratës. Klientit nuk i intereson sesi zbatohet algoritmi sepse ai varet në kontratë dhe kjo e mbështetë principin e pestë &lt;a href=&quot;https://programerat.github.io/2021/SOLID-principet-dhe-si-ti-aplikoni-ne-kod/#Principi%20i%20pest%C3%AB%20-%20Inversioni%20i%20var%C3%ABsis%C3%AB&quot;&gt; Inversionin i varësisë&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;implementimi-korrent-i-dizajnit&quot;&gt;Implementimi korrent i dizajnit&lt;/h3&gt;
@@ -244,9 +244,9 @@ Në vazhdim do të postoj për modele të tjera por edhe për metoda të ndryshm
  
  <entry>
    <title>Principet S.O.L.I.D dhe si të aplikojmë ato në kod</title>
-   <link href="https://p0wex.github.io/Gesko/2021/11/17/solid-principet-dhe-si-ti-aplikoni-ne-kod"/>
+   <link href="https://programeret.github.io//2021/11/17/solid-principet-dhe-si-ti-aplikoni-ne-kod"/>
    <updated>2021-11-17T09:15:20+01:00</updated>
-   <id>https://p0wex.github.io/2021/11/17/SOLID-principet-dhe-si-ti-aplikoni-ne-kod</id>
+   <id>https://programeret.github.io/2021/11/17/SOLID-principet-dhe-si-ti-aplikoni-ne-kod</id>
    <content type="html">&lt;p&gt;E pyeta një të afërm timin pse duhet ti mësojmë SOLID principet?
 Ja si përgjigjet ai…&lt;/p&gt;
 &lt;blockquote&gt;
