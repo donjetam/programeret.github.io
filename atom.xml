@@ -4,13 +4,24 @@
  <title>Programerat</title>
  <link href="https://programeret.github.io//atom.xml" rel="self"/>
  <link href="https://programeret.github.io//"/>
- <updated>2021-12-18T20:36:34+01:00</updated>
+ <updated>2021-12-19T00:32:07+01:00</updated>
  <id>https://programeret.github.io</id>
  <author>
    <name>programerat</name>
    <email>your-email@email.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Docker Test</title>
+   <link href="https://programeret.github.io//2021/12/19/docker-test"/>
+   <updated>2021-12-19T00:00:00+01:00</updated>
+   <id>https://programeret.github.io/2021/12/19/Docker-test</id>
+   <content type="html">### Test
+
+
+### Test</content>
+ </entry>
  
  <entry>
    <title>Refactor Legacy Into Transaction</title>
