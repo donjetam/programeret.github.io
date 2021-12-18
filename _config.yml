@@ -3,8 +3,8 @@ title: Programerat
 greetings: Hey Programer 👋
 description: >-
   Hajde te mesojm sot dicka.
-lang: en-US
-timezone:  Europe/Rome
+lang: sq-SQ
+timezone:  Europe/Berlin
 repo: https://github.com/programerat/programeret.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: none # replace with your disqus shortname
@@ -14,7 +14,7 @@ author:
   bio: Programerat
   userpicture: 
   username: # general username
-  github: # github username
+  github: programerat
   twitter: # twitter username
   email: your-email@email.com # email adress
 
