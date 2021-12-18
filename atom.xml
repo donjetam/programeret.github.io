@@ -4,13 +4,111 @@
  <title>Programerat</title>
  <link href="https://programeret.github.io//atom.xml" rel="self"/>
  <link href="https://programeret.github.io//"/>
- <updated>2021-12-18T00:15:06+01:00</updated>
+ <updated>2021-12-18T20:36:34+01:00</updated>
  <id>https://programeret.github.io</id>
  <author>
    <name>programerat</name>
    <email>your-email@email.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Refactor Legacy Into Transaction</title>
+   <link href="https://programeret.github.io//2021/12/18/refactor-legacy-into-transaction"/>
+   <updated>2021-12-18T00:00:00+01:00</updated>
+   <id>https://programeret.github.io/2021/12/18/Refactor-legacy-into-transaction</id>
+   <content type="html">&lt;h1 id=&quot;start-using-transaction-in-a-non-transaction-legacy-app&quot;&gt;Start using transaction in a non transaction legacy app&lt;/h1&gt;
+
+&lt;h3 id=&quot;symfony-event-vs-decorator-vs-template-method&quot;&gt;Symfony Event VS Decorator VS Template Method&lt;/h3&gt;
+
+&lt;h3 id=&quot;template-method&quot;&gt;Template Method&lt;/h3&gt;
+&lt;p&gt;This method will force us each handler to have a method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;execute()&lt;/code&gt; but the downside would be that we need to add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageBusInterface&lt;/code&gt; for each handler.
+The good side is that we make sure everytime this handler is executed then it is going to be via Transaction.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;
+abstract class AbstractHandler {
+    
+    public function handle(Command $command): void {
+        $this-&amp;gt;pdo-&amp;gt;startTransaction();
+        try {
+            $this-&amp;gt;execute($command);
+            $this-&amp;gt;pdo-&amp;gt;commit();
+
+            $this-&amp;gt;dispatchIntegrationEvents();
+        } catch (\Exception $e) {
+            $this-&amp;gt;pdo-&amp;gt;rollBack();
+        }
+    }
+
+    abstract private function execute(Command $command): void;
+}
+
+class SomeHandler extends AbstractHandler {
+    private function execute(Command $command): void;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;symfony-event&quot;&gt;Symfony Event&lt;/h3&gt;
+&lt;p&gt;This method is the same logic as Template Method, we need to dispatch an event at the end of the handler, this can be achieved via Decorator or TemplateMethod.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;abstract class AbstractHandler {
+    
+    public function handle(Command $command): void {
+        $this-&amp;gt;pdo-&amp;gt;startTransaction();
+        try {
+            $this-&amp;gt;execute($command);
+            $this-&amp;gt;pdo-&amp;gt;commit();
+
+            //dispatch symfony event
+            $this-&amp;gt;dispatchEvent();
+        } catch (\Exception $e) {
+            $this-&amp;gt;pdo-&amp;gt;rollBack();
+        }
+    }
+
+    abstract private function execute(Command $command): void;
+}
+
+class SomeHandler extends AbstractHandler {
+    private function execute(Command $command): void;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;decorator-pattern&quot;&gt;Decorator Pattern&lt;/h3&gt;
+
+&lt;p&gt;This is the cleanes way to implement the bus, we don’t need deps in the handlers/usecases.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;class DbTransactionBusDecorator {
+    
+    //...deps
+
+    public function process(Command $command): void
+    {
+        $this-&amp;gt;startDbTransaction();
+
+        try {
+            $this-&amp;gt;commandBus-&amp;gt;process($command);
+            $this-&amp;gt;commitDbTransaction();
+        } catch (\Throwable $ex) {
+            $this-&amp;gt;rollbackDbTransaction();
+
+            throw $ex;
+        }
+
+        $this-&amp;gt;dispatchIntegrationMessages(); // we dispatch here the integration events
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;options-that-we-have&quot;&gt;Options that we have&lt;/h3&gt;
+
+&lt;h3 id=&quot;how-to-implement-it&quot;&gt;How to implement it&lt;/h3&gt;
+
+&lt;h3 id=&quot;what-issues-we-will-have&quot;&gt;What issues we will have&lt;/h3&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Fjalori i perdorur në shqip rreth artikujve në IT.</title>

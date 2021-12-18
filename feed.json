@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://programeret.github.io/2021/12/18/refactor-legacy-into-transaction",
+            "title": "Refactor Legacy Into Transaction",
+            "summary": null,
+            "content_text": "Start using transaction in a non transaction legacy appSymfony Event VS Decorator VS Template MethodTemplate MethodThis method will force us each handler to have a method execute() but the downside would be that we need to add the MessageBusInterface for each handler.The good side is that we make sure everytime this handler is executed then it is going to be via Transaction.abstract class AbstractHandler {        public function handle(Command $command): void {        $this-&gt;pdo-&gt;startTransaction();        try {            $this-&gt;execute($command);            $this-&gt;pdo-&gt;commit();            $this-&gt;dispatchIntegrationEvents();        } catch (\\Exception $e) {            $this-&gt;pdo-&gt;rollBack();        }    }    abstract private function execute(Command $command): void;}class SomeHandler extends AbstractHandler {    private function execute(Command $command): void;}Symfony EventThis method is the same logic as Template Method, we need to dispatch an event at the end of the handler, this can be achieved via Decorator or TemplateMethod.abstract class AbstractHandler {        public function handle(Command $command): void {        $this-&gt;pdo-&gt;startTransaction();        try {            $this-&gt;execute($command);            $this-&gt;pdo-&gt;commit();            //dispatch symfony event            $this-&gt;dispatchEvent();        } catch (\\Exception $e) {            $this-&gt;pdo-&gt;rollBack();        }    }    abstract private function execute(Command $command): void;}class SomeHandler extends AbstractHandler {    private function execute(Command $command): void;}Decorator PatternThis is the cleanes way to implement the bus, we don’t need deps in the handlers/usecases.class DbTransactionBusDecorator {        //...deps    public function process(Command $command): void    {        $this-&gt;startDbTransaction();        try {            $this-&gt;commandBus-&gt;process($command);            $this-&gt;commitDbTransaction();        } catch (\\Throwable $ex) {            $this-&gt;rollbackDbTransaction();            throw $ex;        }        $this-&gt;dispatchIntegrationMessages(); // we dispatch here the integration events    }}Options that we haveHow to implement itWhat issues we will have###",
+            "content_html": "<h1 id=\"start-using-transaction-in-a-non-transaction-legacy-app\">Start using transaction in a non transaction legacy app</h1><h3 id=\"symfony-event-vs-decorator-vs-template-method\">Symfony Event VS Decorator VS Template Method</h3><h3 id=\"template-method\">Template Method</h3><p>This method will force us each handler to have a method <code class=\"language-plaintext highlighter-rouge\">execute()</code> but the downside would be that we need to add the <code class=\"language-plaintext highlighter-rouge\">MessageBusInterface</code> for each handler.The good side is that we make sure everytime this handler is executed then it is going to be via Transaction.</p><pre><code class=\"language-PHP\">abstract class AbstractHandler {        public function handle(Command $command): void {        $this-&gt;pdo-&gt;startTransaction();        try {            $this-&gt;execute($command);            $this-&gt;pdo-&gt;commit();            $this-&gt;dispatchIntegrationEvents();        } catch (\\Exception $e) {            $this-&gt;pdo-&gt;rollBack();        }    }    abstract private function execute(Command $command): void;}class SomeHandler extends AbstractHandler {    private function execute(Command $command): void;}</code></pre><h3 id=\"symfony-event\">Symfony Event</h3><p>This method is the same logic as Template Method, we need to dispatch an event at the end of the handler, this can be achieved via Decorator or TemplateMethod.</p><pre><code class=\"language-PHP\">abstract class AbstractHandler {        public function handle(Command $command): void {        $this-&gt;pdo-&gt;startTransaction();        try {            $this-&gt;execute($command);            $this-&gt;pdo-&gt;commit();            //dispatch symfony event            $this-&gt;dispatchEvent();        } catch (\\Exception $e) {            $this-&gt;pdo-&gt;rollBack();        }    }    abstract private function execute(Command $command): void;}class SomeHandler extends AbstractHandler {    private function execute(Command $command): void;}</code></pre><h3 id=\"decorator-pattern\">Decorator Pattern</h3><p>This is the cleanes way to implement the bus, we don’t need deps in the handlers/usecases.</p><pre><code class=\"language-PHP\">class DbTransactionBusDecorator {        //...deps    public function process(Command $command): void    {        $this-&gt;startDbTransaction();        try {            $this-&gt;commandBus-&gt;process($command);            $this-&gt;commitDbTransaction();        } catch (\\Throwable $ex) {            $this-&gt;rollbackDbTransaction();            throw $ex;        }        $this-&gt;dispatchIntegrationMessages(); // we dispatch here the integration events    }}</code></pre><h3 id=\"options-that-we-have\">Options that we have</h3><h3 id=\"how-to-implement-it\">How to implement it</h3><h3 id=\"what-issues-we-will-have\">What issues we will have</h3><p>###</p>",
+            "url": "https://programeret.github.io/2021/12/18/refactor-legacy-into-transaction",
+            
+            
+            
+            
+            
+            "date_published": "2021-12-18T00:00:00+01:00",
+            "date_modified": "2021-12-18T00:00:00+01:00",
+            
+                "author":  {
+                "name": "programerat",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://programeret.github.io/2021/12/15/rregullat-e-shkrimit-ne-shqipe-rreth-programimit",
             "title": "Fjalori i perdorur në shqip rreth artikujve në IT.",
             "summary": null,
